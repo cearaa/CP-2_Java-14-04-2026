@@ -14,7 +14,7 @@ public class MainAluno {
     public static void main(String[] args) {
 
         try {
-            //Formato de data padrão dos EUA e pedido nos slides
+            //Data no formato dias/mes/ano pedido nos slides
             DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy");
             LocalDate dataAtual = LocalDate.now();
 
