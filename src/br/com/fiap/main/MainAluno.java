@@ -40,7 +40,7 @@ public class MainAluno {
         Aluno aluno4 = new Aluno(cadastroFIAP4, nomeAluno4, dataNascimentoA4);
 
         String mensagemFormat = String.format(
-                "--- DADOS DOS ALUNOS ---\n" +
+                "------------------------ DADOS DOS ALUNOS -----------------------\n" +
                         "Aluno 1: \nRM %d - %s\nIdade: %s\n\n" +
                         "Aluno 2: \nRM %d - %s\nIdade: %s\n\n" +
                         "Aluno 3: \nRM %d - %s\nIdade: %s\n\n" +
