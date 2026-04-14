@@ -17,7 +17,7 @@ public class Aluno {
     }
     //Construtor com parâmetros
     public Aluno(int registroMatricula, String nomeCompleto, LocalDate dataDeNascimento){
-        this.registroMatricula = registroMatricula;
+        setRegistroMatricula(registroMatricula);
         this.nomeCompleto = nomeCompleto;
         setDataDeNascimento(dataDeNascimento);
     }
