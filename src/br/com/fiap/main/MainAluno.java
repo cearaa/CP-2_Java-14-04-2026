@@ -48,9 +48,8 @@ public class MainAluno {
                 aluno1.getRegistroMatricula(), aluno1.getNomeCompleto(), aluno1.calcularIdadeCompleta(dataAtual),
                 aluno2.getRegistroMatricula(), aluno2.getNomeCompleto(), aluno2.calcularIdadeCompleta(dataAtual),
                 aluno3.getRegistroMatricula(), aluno3.getNomeCompleto(), aluno3.calcularIdadeCompleta(dataAtual),
-                aluno4.getRegistroMatricula(), nomeAluno4.getNomeCompleto(), aluno4.calcularIdadeCompleta(dataAtual)
+                aluno4.getRegistroMatricula(), aluno4.getNomeCompleto(), aluno4.calcularIdadeCompleta(dataAtual)
         );
-
-        )
+        JOptionPane.showMessageDialog(null, mensagemFormat);
     }
 }
