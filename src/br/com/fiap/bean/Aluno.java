@@ -19,7 +19,7 @@ public class Aluno {
     public Aluno(int registroMatricula, String nomeCompleto, LocalDate dataDeNascimento){
         this.registroMatricula = registroMatricula;
         this.nomeCompleto = nomeCompleto;
-        this.dataDeNascimento = dataDeNascimento;
+        setDataDeNascimento(dataDeNascimento);
     }
     //Implementação dos métodos getters/setters das variaveis. ( Alt + Insert )
     public int getRegistroMatricula() {
