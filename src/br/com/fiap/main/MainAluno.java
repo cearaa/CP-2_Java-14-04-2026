@@ -38,5 +38,19 @@ public class MainAluno {
         String nomeAluno4 = JOptionPane.showInputDialog("Dígite o nome completo do aluno número 4: ");
         LocalDate dataNascimentoA4 = LocalDate.parse(JOptionPane.showInputDialog("Data de nascimento do aluno 4 em formato BR (dd/MM/yyyy): ", dtf));
         Aluno aluno4 = new Aluno(cadastroFIAP4, nomeAluno4, dataNascimentoA4);
+
+        String mensagemFormat = String.format(
+                "--- DADOS DOS ALUNOS ---\n" +
+                        "Aluno 1: \nRM %d - %s\nIdade: %s\n\n" +
+                        "Aluno 2: \nRM %d - %s\nIdade: %s\n\n" +
+                        "Aluno 3: \nRM %d - %s\nIdade: %s\n\n" +
+                        "Aluno 4: \nRM %d - %s\nIdade: %s",
+                aluno1.getRegistroMatricula(), aluno1.getNomeCompleto(), aluno1.calcularIdadeCompleta(dataAtual),
+                aluno2.getRegistroMatricula(), aluno2.getNomeCompleto(), aluno2.calcularIdadeCompleta(dataAtual),
+                aluno3.getRegistroMatricula(), aluno3.getNomeCompleto(), aluno3.calcularIdadeCompleta(dataAtual),
+                aluno4.getRegistroMatricula(), nomeAluno4.getNomeCompleto(), aluno4.calcularIdadeCompleta(dataAtual)
+        );
+
+        )
     }
 }
