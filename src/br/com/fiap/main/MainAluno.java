@@ -32,6 +32,11 @@ public class MainAluno {
         int cadastroFIAP3 = Integer.parseInt(JOptionPane.showInputDialog("Dígite o RM do aluno número 3: "));
         String nomeAluno3 = JOptionPane.showInputDialog("Dígite o nome completo do aluno número 3: ");
         LocalDate dataNascimentoA3 = LocalDate.parse(JOptionPane.showInputDialog("Data de nascimento do aluno 3 em formato BR (dd/MM/yyyy): ", dtf));
+        Aluno aluno3 = new Aluno(cadastroFIAP3, nomeAluno3, dataNascimentoA3);
 
+        int cadastroFIAP4 = Integer.parseInt(JOptionPane.showInputDialog("Dígite o RM do aluno número 4: "));
+        String nomeAluno4 = JOptionPane.showInputDialog("Dígite o nome completo do aluno número 4: ");
+        LocalDate dataNascimentoA4 = LocalDate.parse(JOptionPane.showInputDialog("Data de nascimento do aluno 4 em formato BR (dd/MM/yyyy): ", dtf));
+        Aluno aluno4 = new Aluno(cadastroFIAP4, nomeAluno4, dataNascimentoA4);
     }
 }
