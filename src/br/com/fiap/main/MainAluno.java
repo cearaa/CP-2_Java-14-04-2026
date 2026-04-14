@@ -26,7 +26,7 @@ public class MainAluno {
         Aluno aluno2 = new Aluno();
         aluno2.setRegistroMatricula(570985);
         aluno2.setNomeCompleto("Fábricio Aquiles Sales da Silva");
-        aluno2.setDataDeNascimento(LocalDate.parse("digite", dtf));
+        aluno2.setDataDeNascimento(LocalDate.parse("03/02/2008", dtf));
 
         //Dois construtores com parâmetro que o usuário irá digitar pelo JOPtionPane
         int cadastroFIAP3 = Integer.parseInt(JOptionPane.showInputDialog("Dígite o RM do aluno número 3: "));
